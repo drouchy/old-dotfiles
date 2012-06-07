@@ -47,6 +47,7 @@ end
 desc "symlink the config files"
 task :config_files do
   Dir.entries('config').reject { |f| f.start_with?('.') }.each { |f| replace_file("config/#{f}")}
+  system %Q(rm -fr ~/.oh-my-zsh/custom)
   link_directory('zsh-custom', '.oh-my-zsh/custom')
   link_directory('vim', '.vim')
   system "ln -s ~/.oh-my-zsh/custom/themes/custom-juanghurtado.zsh-theme ~/.oh-my-zsh/themes/custom-juanghurtado.zsh-theme"
