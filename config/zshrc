@@ -35,3 +35,5 @@ if [ -f ~/.zshrc.local ] ; then
 fi
 
 alias git='nocorrect git'
+
+eval "$(rbenv init -)"
