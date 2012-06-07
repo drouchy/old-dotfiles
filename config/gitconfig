@@ -27,3 +27,6 @@
   ru = remote update
   rp = remote prune
   sm = submodule
+  df = diff --color
+  stepback = reset --hard HEAD~1
+  search = log --oneline --grep
