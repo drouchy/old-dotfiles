@@ -237,6 +237,7 @@ command RRestart call Rrestart()
 
 " Open files with <leader>f
 map <C-t> :CommandTFlush<cr>\|:CommandT<cr>
+map <C-p> :CommandTFlush<cr>\|:CommandT<cr>
 " Open files, limited to the directory of the current file, with <leader>gf
 " This requires the %% mapping found below.
 map <leader>gf :CommandTFlush<cr>\|:CommandT %%<cr>
