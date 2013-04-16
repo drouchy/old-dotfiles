@@ -6,13 +6,13 @@
         keepBackup = false
         tool = vimdiff
 [core]
-	editor = vim 
+	editor = vi 
 
 [alias]
   lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)<%an>%Creset' --abbrev-commit --date=relative"
   st = status
   ci = commit
-  cia = commit --amend
+  cia = commit --amend -C HEAD
   co = checkout
   br = branch
   sb = show-branch
