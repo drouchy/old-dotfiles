@@ -5,4 +5,3 @@ export shell=/usr/local/bin/zsh
 export PATH=/usr/local/bin:$PATH
 
 alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc'
-eval "$(rbenv init -)"

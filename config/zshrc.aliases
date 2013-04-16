@@ -1,0 +1,8 @@
+alias reload='exec zsh'
+alias todo='vi ~/Dropbox/Developer/todo.txt'
+
+alias cuke='bundle exec cucumber'
+
+alias g='git status'
+alias glg='git lg -30'
+alias pullmaster='git pull --rebase origin master'
