@@ -30,3 +30,5 @@
   df = diff --color
   stepback = reset --hard HEAD~1
   search = log --oneline --grep
+[branch]
+	autosetuprebase = always
