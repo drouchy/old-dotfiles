@@ -50,3 +50,5 @@ export PAGER='less -FXRS'
 unsetopt correct_all
 
 . ~/.zsh_node
+unalias g
+. ~/Developer/dotfiles/scripts/githelper
