@@ -6,7 +6,7 @@
         keepBackup = false
         tool = vimdiff
 [core]
-	editor = vi 
+	editor = vim
 
 [alias]
   lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)<%an>%Creset' --abbrev-commit --date=relative"

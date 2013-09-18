@@ -42,7 +42,7 @@ if [ -f ~/.zshrc.aliases ] ; then
 fi
 
 
-eval "$(rbenv init -)"
+if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 
 export PAGER='less -FXRS'
 
@@ -52,3 +52,5 @@ unsetopt correct_all
 . ~/.zsh_node
 unalias g
 . ~/Developer/dotfiles/scripts/githelper
+export PATH=~/.rbenv/shims:$PATH
+ssh-add
